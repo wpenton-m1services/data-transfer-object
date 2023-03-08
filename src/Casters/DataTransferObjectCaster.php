@@ -1,9 +1,9 @@
 <?php
 
-namespace Spatie\DataTransferObject\Casters;
+namespace M1Services\DataTransferObject\Casters;
 
-use Spatie\DataTransferObject\Caster;
-use Spatie\DataTransferObject\DataTransferObject;
+use M1Services\DataTransferObject\Caster;
+use M1Services\DataTransferObject\DataTransferObject;
 
 class DataTransferObjectCaster implements Caster
 {

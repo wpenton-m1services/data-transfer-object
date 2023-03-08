@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\DataTransferObject\Tests;
+namespace M1Services\DataTransferObject\Tests;
 
 use ArrayAccess;
 use ArrayIterator;
@@ -9,9 +9,9 @@ use Illuminate\Support\Collection;
 use Iterator;
 use IteratorAggregate;
 use LogicException;
-use Spatie\DataTransferObject\Attributes\CastWith;
-use Spatie\DataTransferObject\Casters\ArrayCaster;
-use Spatie\DataTransferObject\DataTransferObject;
+use M1Services\DataTransferObject\Attributes\CastWith;
+use M1Services\DataTransferObject\Casters\ArrayCaster;
+use M1Services\DataTransferObject\DataTransferObject;
 
 class CustomCasterArgumentsTest extends TestCase
 {
@@ -186,7 +186,7 @@ class CustomCasterArgumentsTest extends TestCase
     {
         $this->expectException(LogicException::class);
         $this->expectExceptionMessage(
-            "Caster [ArrayCaster] each item must be an array or an instance of the specified item type [Spatie\DataTransferObject\Tests\Foo]."
+            "Caster [ArrayCaster] each item must be an array or an instance of the specified item type [M1Services\DataTransferObject\Tests\Foo]."
         );
 
         new DTOWithArrayObject(

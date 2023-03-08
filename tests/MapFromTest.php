@@ -1,9 +1,9 @@
 <?php
 
-namespace Spatie\DataTransferObject\Tests;
+namespace M1Services\DataTransferObject\Tests;
 
-use Spatie\DataTransferObject\Attributes\MapFrom;
-use Spatie\DataTransferObject\DataTransferObject;
+use M1Services\DataTransferObject\Attributes\MapFrom;
+use M1Services\DataTransferObject\DataTransferObject;
 
 class MapFromTest extends TestCase
 {

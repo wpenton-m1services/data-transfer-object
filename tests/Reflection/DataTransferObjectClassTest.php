@@ -1,10 +1,10 @@
 <?php
 
-namespace Spatie\DataTransferObject\Tests\Reflection;
+namespace M1Services\DataTransferObject\Tests\Reflection;
 
-use Spatie\DataTransferObject\DataTransferObject;
-use Spatie\DataTransferObject\Reflection\DataTransferObjectClass;
-use Spatie\DataTransferObject\Tests\TestCase;
+use M1Services\DataTransferObject\DataTransferObject;
+use M1Services\DataTransferObject\Reflection\DataTransferObjectClass;
+use M1Services\DataTransferObject\Tests\TestCase;
 
 class DataTransferObjectClassTest extends TestCase
 {

@@ -1,9 +1,10 @@
 <?php
 
-namespace Spatie\DataTransferObject\Exceptions;
+namespace M1Services\DataTransferObject\Exceptions;
 
 use Exception;
-use Spatie\DataTransferObject\DataTransferObject;
+use M1Services\DataTransferObject\DataTransferObject;
+use M1Services\DataTransferObject\Validation\ValidationResult;
 
 class ValidationException extends Exception
 {
@@ -16,7 +17,7 @@ class ValidationException extends Exception
         $messages = [];
 
         foreach ($validationErrors as $fieldName => $errorsForField) {
-            /** @var \Spatie\DataTransferObject\Validation\ValidationResult $errorForField */
+            /** @var ValidationResult $errorForField */
             foreach ($errorsForField as $errorForField) {
                 $messages[] = "\t - `{$className}->{$fieldName}`: {$errorForField->message}";
             }

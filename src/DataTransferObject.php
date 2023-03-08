@@ -1,14 +1,14 @@
 <?php
 
-namespace Spatie\DataTransferObject;
+namespace M1Services\DataTransferObject;
 
 use ReflectionClass;
 use ReflectionProperty;
-use Spatie\DataTransferObject\Attributes\CastWith;
-use Spatie\DataTransferObject\Attributes\MapTo;
-use Spatie\DataTransferObject\Casters\DataTransferObjectCaster;
-use Spatie\DataTransferObject\Exceptions\UnknownProperties;
-use Spatie\DataTransferObject\Reflection\DataTransferObjectClass;
+use M1Services\DataTransferObject\Attributes\CastWith;
+use M1Services\DataTransferObject\Attributes\MapTo;
+use M1Services\DataTransferObject\Casters\DataTransferObjectCaster;
+use M1Services\DataTransferObject\Exceptions\UnknownProperties;
+use M1Services\DataTransferObject\Reflection\DataTransferObjectClass;
 
 #[CastWith(DataTransferObjectCaster::class)]
 abstract class DataTransferObject

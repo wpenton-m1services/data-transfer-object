@@ -1,12 +1,12 @@
 <?php
 
-namespace Spatie\DataTransferObject\Tests\CollectionCaster;
+namespace M1Services\DataTransferObject\Tests\CollectionCaster;
 
 use Illuminate\Support\Collection;
-use Spatie\DataTransferObject\Attributes\CastWith;
-use Spatie\DataTransferObject\Caster;
-use Spatie\DataTransferObject\DataTransferObject;
-use Spatie\DataTransferObject\Tests\TestCase;
+use M1Services\DataTransferObject\Attributes\CastWith;
+use M1Services\DataTransferObject\Caster;
+use M1Services\DataTransferObject\DataTransferObject;
+use M1Services\DataTransferObject\Tests\TestCase;
 
 class CollectionCasterTest extends TestCase
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\DataTransferObject\Exceptions;
+namespace M1Services\DataTransferObject\Exceptions;
 
 use Exception;
 

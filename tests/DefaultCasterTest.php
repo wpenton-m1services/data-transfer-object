@@ -1,12 +1,12 @@
 <?php
 
-namespace Spatie\DataTransferObject\Tests;
+namespace M1Services\DataTransferObject\Tests;
 
 use Attribute;
 use DateTimeImmutable;
-use Spatie\DataTransferObject\Attributes\DefaultCast;
-use Spatie\DataTransferObject\Caster;
-use Spatie\DataTransferObject\DataTransferObject;
+use M1Services\DataTransferObject\Attributes\DefaultCast;
+use M1Services\DataTransferObject\Caster;
+use M1Services\DataTransferObject\DataTransferObject;
 
 class DefaultCasterTest extends TestCase
 {

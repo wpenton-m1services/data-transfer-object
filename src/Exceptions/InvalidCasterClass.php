@@ -1,9 +1,9 @@
 <?php
 
-namespace Spatie\DataTransferObject\Exceptions;
+namespace M1Services\DataTransferObject\Exceptions;
 
 use Exception;
-use Spatie\DataTransferObject\Caster;
+use M1Services\DataTransferObject\Caster;
 
 class InvalidCasterClass extends Exception
 {

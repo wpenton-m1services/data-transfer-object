@@ -1,8 +1,8 @@
 <?php
 
-namespace Spatie\DataTransferObject;
+namespace M1Services\DataTransferObject;
 
-use Spatie\DataTransferObject\Validation\ValidationResult;
+use M1Services\DataTransferObject\Validation\ValidationResult;
 
 interface Validator
 {

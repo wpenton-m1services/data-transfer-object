@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\DataTransferObject;
+namespace M1Services\DataTransferObject;
 
 interface Caster
 {

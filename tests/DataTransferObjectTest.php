@@ -1,15 +1,15 @@
 <?php
 
-namespace Spatie\DataTransferObject\Tests;
+namespace M1Services\DataTransferObject\Tests;
 
-use Spatie\DataTransferObject\Tests\Dummy\BasicDto;
-use Spatie\DataTransferObject\Tests\Dummy\ComplexDto;
-use Spatie\DataTransferObject\Tests\Dummy\ComplexDtoWithCastedAttributeHavingCast;
-use Spatie\DataTransferObject\Tests\Dummy\ComplexDtoWithNullableProperty;
-use Spatie\DataTransferObject\Tests\Dummy\ComplexDtoWithParent;
-use Spatie\DataTransferObject\Tests\Dummy\ComplexDtoWithSelf;
-use Spatie\DataTransferObject\Tests\Dummy\ComplexStrictDto;
-use Spatie\DataTransferObject\Tests\Dummy\WithDefaultValueDto;
+use M1Services\DataTransferObject\Tests\Dummy\BasicDto;
+use M1Services\DataTransferObject\Tests\Dummy\ComplexDto;
+use M1Services\DataTransferObject\Tests\Dummy\ComplexDtoWithCastedAttributeHavingCast;
+use M1Services\DataTransferObject\Tests\Dummy\ComplexDtoWithNullableProperty;
+use M1Services\DataTransferObject\Tests\Dummy\ComplexDtoWithParent;
+use M1Services\DataTransferObject\Tests\Dummy\ComplexDtoWithSelf;
+use M1Services\DataTransferObject\Tests\Dummy\ComplexStrictDto;
+use M1Services\DataTransferObject\Tests\Dummy\WithDefaultValueDto;
 
 class DataTransferObjectTest extends TestCase
 {

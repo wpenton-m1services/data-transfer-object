@@ -1,9 +1,9 @@
 <?php
 
-namespace Spatie\DataTransferObject\Tests\Dummy;
+namespace M1Services\DataTransferObject\Tests\Dummy;
 
-use Spatie\DataTransferObject\Attributes\DefaultCast;
-use Spatie\DataTransferObject\DataTransferObject;
+use M1Services\DataTransferObject\Attributes\DefaultCast;
+use M1Services\DataTransferObject\DataTransferObject;
 
 #[DefaultCast(ComplexObject::class, ComplexObjectCaster::class)]
 class ComplexDtoWithCast extends DataTransferObject

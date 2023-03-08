@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\DataTransferObject\Tests\Dummy;
+namespace M1Services\DataTransferObject\Tests\Dummy;
 
 class ComplexDtoWithParent extends ComplexDtoWithSelf
 {

@@ -1,8 +1,8 @@
 <?php
 
-namespace Spatie\DataTransferObject\Tests;
+namespace M1Services\DataTransferObject\Tests;
 
-use Spatie\DataTransferObject\DataTransferObject;
+use M1Services\DataTransferObject\DataTransferObject;
 
 class CasterWithDataTransferObjectsTest extends TestCase
 {

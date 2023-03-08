@@ -1,12 +1,12 @@
 <?php
 
-namespace Spatie\DataTransferObject\Reflection;
+namespace M1Services\DataTransferObject\Reflection;
 
 use ReflectionClass;
 use ReflectionProperty;
-use Spatie\DataTransferObject\Attributes\Strict;
-use Spatie\DataTransferObject\DataTransferObject;
-use Spatie\DataTransferObject\Exceptions\ValidationException;
+use M1Services\DataTransferObject\Attributes\Strict;
+use M1Services\DataTransferObject\DataTransferObject;
+use M1Services\DataTransferObject\Exceptions\ValidationException;
 
 class DataTransferObjectClass
 {

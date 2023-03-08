@@ -1,9 +1,9 @@
 <?php
 
-namespace Spatie\DataTransferObject\Casters;
+namespace M1Services\DataTransferObject\Casters;
 
 use LogicException;
-use Spatie\DataTransferObject\Caster;
+use M1Services\DataTransferObject\Caster;
 
 class EnumCaster implements Caster
 {

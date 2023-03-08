@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\DataTransferObject\Reflection;
+namespace M1Services\DataTransferObject\Reflection;
 
 use JetBrains\PhpStorm\Immutable;
 use ReflectionAttribute;
@@ -9,12 +9,12 @@ use ReflectionNamedType;
 use ReflectionProperty;
 use ReflectionType;
 use ReflectionUnionType;
-use Spatie\DataTransferObject\Attributes\CastWith;
-use Spatie\DataTransferObject\Attributes\DefaultCast;
-use Spatie\DataTransferObject\Attributes\MapFrom;
-use Spatie\DataTransferObject\Caster;
-use Spatie\DataTransferObject\DataTransferObject;
-use Spatie\DataTransferObject\Validator;
+use M1Services\DataTransferObject\Attributes\CastWith;
+use M1Services\DataTransferObject\Attributes\DefaultCast;
+use M1Services\DataTransferObject\Attributes\MapFrom;
+use M1Services\DataTransferObject\Caster;
+use M1Services\DataTransferObject\DataTransferObject;
+use M1Services\DataTransferObject\Validator;
 
 class DataTransferObjectProperty
 {

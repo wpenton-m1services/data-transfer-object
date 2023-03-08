@@ -1,11 +1,11 @@
 <?php
 
-namespace Spatie\DataTransferObject\Tests;
+namespace M1Services\DataTransferObject\Tests;
 
-use Spatie\DataTransferObject\Attributes\CastWith;
-use Spatie\DataTransferObject\DataTransferObject;
-use Spatie\DataTransferObject\Tests\Dummy\ComplexObject;
-use Spatie\DataTransferObject\Tests\Dummy\ComplexObjectCaster;
+use M1Services\DataTransferObject\Attributes\CastWith;
+use M1Services\DataTransferObject\DataTransferObject;
+use M1Services\DataTransferObject\Tests\Dummy\ComplexObject;
+use M1Services\DataTransferObject\Tests\Dummy\ComplexObjectCaster;
 
 class CasterOnPropertyTest extends TestCase
 {

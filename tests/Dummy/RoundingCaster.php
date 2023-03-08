@@ -1,8 +1,8 @@
 <?php
 
-namespace Spatie\DataTransferObject\Tests\Dummy;
+namespace M1Services\DataTransferObject\Tests\Dummy;
 
-use Spatie\DataTransferObject\Caster;
+use M1Services\DataTransferObject\Caster;
 
 class RoundingCaster implements Caster
 {

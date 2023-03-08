@@ -1,8 +1,8 @@
 <?php
 
-namespace Spatie\DataTransferObject\Tests\Dummy;
+namespace M1Services\DataTransferObject\Tests\Dummy;
 
-use Spatie\DataTransferObject\DataTransferObject;
+use M1Services\DataTransferObject\DataTransferObject;
 
 class ComplexDtoWithSelf extends DataTransferObject
 {
